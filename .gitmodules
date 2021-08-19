@@ -1,0 +1,33 @@
+[submodule "cart"]
+	path = cart
+	url = https://github.com/gzltommy/cart.git
+[submodule "cartApi"]
+	path = cartApi
+	url = https://github.com/gzltommy/cartApi.git
+[submodule "category"]
+	path = category
+	url = https://github.com/gzltommy/category.git
+[submodule "common"]
+	path = common
+	url = https://github.com/gzltommy/common.git
+[submodule "docker-compose"]
+	path = docker-compose
+	url = https://github.com/gzltommy/docker-compose.git
+[submodule "docker-elk"]
+	path = docker-elk
+	url = https://github.com/gzltommy/docker-elk.git
+[submodule "order"]
+	path = order
+	url = https://github.com/gzltommy/order.git
+[submodule "payment"]
+	path = payment
+	url = https://github.com/gzltommy/payment.git
+[submodule "paymentApi"]
+	path = paymentApi
+	url = https://github.com/gzltommy/paymentApi.git
+[submodule "product"]
+	path = product
+	url = https://github.com/gzltommy/product.git
+[submodule "user"]
+	path = user
+	url = https://github.com/gzltommy/user.git
