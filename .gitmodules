@@ -31,3 +31,6 @@
 [submodule "user"]
 	path = user
 	url = https://github.com/gzltommy/user.git
+[submodule "k8s-install"]
+	path = k8s-install
+	url = git@github.com:gzltommy/k8s-install.git
