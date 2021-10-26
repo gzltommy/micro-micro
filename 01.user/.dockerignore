@@ -1,0 +1,7 @@
+# 忽略当前文件夹下的所用文件
+*
+
+# 否定忽略的文件
+!.dockerignore
+!Dockerfile
+!user

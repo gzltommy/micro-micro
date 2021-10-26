@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cartApi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/category" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-elk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/k8s-install" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/order" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/payment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paymentApi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/product" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user" vcs="Git" />
+  </component>
+</project>

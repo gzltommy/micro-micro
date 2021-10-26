@@ -1,0 +1,44 @@
+# 声明版本
+version: "3"
+
+# 定义服务
+services:
+  # 服务名称，能够在同一网络内使用名称访问（域名解析的方式）
+  # 服务注册、配置中心
+  consul:
+    # 镜像
+    image: gzltommy/consul
+    # 容器执行命令
+    command: agent -dev --client=0.0.0.0 -ui
+    # 镜像对外映射的端口
+    ports:
+      - "8500:8500"
+
+  # 链路追踪
+  jaeger:
+    image: gzltommy/jaeger-all-in-one
+    ports:
+      - "6831:6831/udp"
+      - "16686:16686"
+
+  # 熔断看板
+  hystrix-dashboard:
+    image: gzltommy/hystrix-dashboard
+    ports:
+      - "9002:9002"
+
+  # 监控
+  prometheus:
+    image: gzltommy/prometheus
+    # 把外部 yml 文件挂载到容器中
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  # 监控看板
+  grafana:
+    image: gzltommy/grafana
+    ports:
+      - "3000:3000"
+  

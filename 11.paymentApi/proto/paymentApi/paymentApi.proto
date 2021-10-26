@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package paymentApi;
+
+option go_package = "github.com/gzltommy/paymentApi/proto/paymentApi";
+
+import "proto/imports/api.proto";
+
+service PaymentApi {
+    //直接退款功能
+    rpc PayPalRefund (api.Request) returns (api.Response) {
+    }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package cartApi;
+
+option go_package = "github.com/gzltommy/cartApi/proto/cartApi";
+
+import "proto/imports/api.proto";
+
+service CartApi {
+	rpc FindAll(api.Request) returns (api.Response) {}
+}

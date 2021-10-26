@@ -1,0 +1,1 @@
+docker run -d -p 3307:3306 -v /micro-mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name micro-mysql gzltommy/mysql
